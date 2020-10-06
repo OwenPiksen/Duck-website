@@ -1,10 +1,32 @@
 .container {
-  display: grid;
-  grid-template-columns: 500px 500px 500px 500px;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    "sida1 Anka Kycklin Om-mig"
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 150% 150% 150%;
+	grid-template-areas: 
+    "header header header header"
     "main main . idebar"
     "footer footer footer footer";
 }
 
+header{
+	grid-area: header;
+	background-color #009ac9;
+}
+main{
+	grid-area: main;
+	background-color: #002ac2;
+}
+footer{
+	grid-area: footer;
+	background-color: #306bb3
+}
+ul li a{
+	text-decoration: none;
+	Color: #793ff7;
+	font-size: 200%;
+	font-family: Papyrus;
+	display: block;
+}
+nav > ul{
+	list-style-type: none;
+}
