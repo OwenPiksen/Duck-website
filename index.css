@@ -1,7 +1,7 @@
 .container {
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
-	grid-template-rows: 150% 150% 150%;
+	grid-template-rows: 50vh 50vh 50vh;
 	grid-template-areas: 
     "header header header header"
     "main main . idebar"
@@ -12,14 +12,17 @@ header{
 	grid-area: header;
 	background-color #009ac9;
 }
+
 main{
 	grid-area: main;
 	background-color: #002ac2;
 }
+
 footer{
 	grid-area: footer;
 	background-color: #306bb3
 }
+
 ul li a{
 	text-decoration: none;
 	Color: #793ff7;
@@ -27,6 +30,22 @@ ul li a{
 	font-family: Papyrus;
 	display: block;
 }
+
 nav > ul{
 	list-style-type: none;
+	font-size: 200%;
+	background-color: #578cb9;
+}
+
+table,th,td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.BildMitten {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 25%;
 }
