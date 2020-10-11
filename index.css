@@ -8,44 +8,53 @@
     "footer footer footer footer";
 }
 
-header{
-	grid-area: header;
-	background-color #009ac9;
+header{ /* Does so i can change the info of all header functions in the actual code. */
+	grid-area: header; /* says that this grid area is the one named header. */
+	background-color #009ac9; /* Changes the background text of all the area of the grid area named header. */
 }
 
-main{
-	grid-area: main;
-	background-color: #002ac2;
+main{ /* Does so i can change the info of all main functions in the actual code. */
+	grid-area: main; /* says that this grid area is the one named header. */
+	background-color: #002ac2; /* Changes the background text of all the area of the grid area named header. */
 }
 
-footer{
-	grid-area: footer;
-	background-color: #306bb3
+footer{  /* Does so i can change the info of all footer functions in the actual code. */
+	grid-area: footer; /* says that this grid area is the one named header. */
+	background-color: #306bb3 /* Changes the background text of all the area of the grid area named header. */
+}
+h1{ /* Makes so that i can change the text in header 1 */
+	
+}
+ul li a{ /* Makes so that i can change the text in the ul>li>a */
+	text-decoration: none; /* Changes the decoration of the text in the ul li a */
+	Color: #793ff7; /* Changes the color  of the text in the ul li a */
+	font-size: 200%; /* Changes the font size of the text in the ul li a */
+	font-family: Papyrus; /* Changes the font sort of the text in the ul li a */
+	display: block; /* Changes the display to block form in the text in the ul li a */
 }
 
-ul li a{
-	text-decoration: none;
-	Color: #793ff7;
-	font-size: 200%;
-	font-family: Papyrus;
-	display: block;
+nav > ul{ /* Does so i can change the info of all nav > ul functions in the actual code. */
+	list-style-type: none; /* Changes the style type of the list in the nav > ul */
+	font-size: 200%; /* Changes the font size of the text in the nav > ul */
+	background-color: #578cb9; /* Changes the background text of all the area of the grid area named header. */
 }
 
-nav > ul{
-	list-style-type: none;
-	font-size: 200%;
-	background-color: #578cb9;
+table,th,td { /* Does so i can change the info of all table,th and td functions in the actual code. */
+	border: 1px solid black;  /* Changes table,th,td to 1px solid black borders. */
+	border-collapse: collapse; /* Collapses all borders in the Table,th and td */
 }
 
-table,th,td {
-	border: 1px solid black;
-	border-collapse: collapse;
+.BildMitten { /* Changes img tag named bild mitten in html code. */
+  display: block; /* Changes the display to blocks */
+  margin-left: auto; /* Changes the place of the img in the html code */
+  margin-right: auto; /* Changes the place of the img in the html code */
+  width: 25%; /* Changes the with of the img */
+  border-radius: 25%; /* Changes the border radius to 25% round corners */
 }
-
-.BildMitten {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  border-radius: 25%;
+.BildHoger {
+  display: block;  /* Changes img tag named bild mitten in html code. */
+  margin-left: 20%;  /* Changes the place of the img in the html code */
+  margin-right: 20%;  /* Changes the place of the img in the html code */
+  width: 35%; /* Changes the with of the img */
+  border-radius: 25%; /* Changes the border radius to 25% round corners */
 }
